@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_excel('./data/tatedama.xlsx')
+# df = pd.read_csv('./data/tatedama_utf.csv')
+df = pd.read_csv('./data/tatedama.csv')
 # st.dataframe(df)
 # st.table(df)
 st.line_chart(df)
